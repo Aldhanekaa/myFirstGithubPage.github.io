@@ -1,0 +1,108 @@
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 999;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+
+.parent-scroll {
+    position: relative;
+}
+
+.satu {
+    opacity: 0;
+}
+
+.dua {
+    opacity: 1;
+    position: absolute;
+    right: 0;
+}
+
+.scroll-to-top:hover .satu {
+    opacity: 1;
+}
+
+.scroll-to-top:hover .dua {
+    opacity: 0;
+}
+
+
+.contact-links img {
+    width: 125px;
+}
+
+.contact-links img.github {
+    width: 150px;
+    height: 50px;
+}
+
+.contact-links img.codepen {
+    width: 150px;
+    height: 50px;
+}
+
+.contact-links img.email {
+    width: 150px;
+    height: 50px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 10px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #acb6e5;
+    background-image: linear-gradient(0deg, rgb(170, 255, 196), rgb(170, 252, 255));
+    
+border-radius: 20px;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 7vh;
+    background: rgb(63, 63, 63);
+    z-index: 9999;
+}
+
+footer div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+    animation: footeranimasi 50s linear infinite; 
+}
+
+footer div p{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+@keyframes footeranimasi {
+    from {
+        right: -1230px;
+    }
+    to {
+        right: 1230px;
+    }
+}
+
+footer p::selection {
+    background-color: black;
+}

@@ -1,0 +1,87 @@
+@keyframes jumpToBottom {
+    from {
+        bottom: 20px;
+    }  
+    to {
+        bottom: 5px;
+    }
+}
+
+@keyframes info{
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes animasi{
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    8.3% {
+        color: rgb(255, 125, 0);
+    }
+
+    16.67% {
+        color: rgb(255, 255, 0);
+    }
+
+    25% {
+        color: rgb(125, 255, 0);
+    }
+
+    33.3% {
+        color: rgb(0, 255, 0);
+    }
+
+    41.67% {
+        color: rgb(0, 255, 125);
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    58.3% {
+        color: rgb(0, 125, 255);
+    }
+
+    66.67% {
+        color: blue;
+    }
+
+    75% {
+        color: violet;
+    }
+
+    83.3% {
+        color: magenta;
+    }
+
+    91.67% {
+        color: rgb(255, 0, 125);
+    }
+}
+
+@keyframes box {
+    0% {
+        height: 250px;
+        width: 350px;
+    }
+
+    50% {
+        width: 400px;
+        height: 250px;
+    }
+
+    100% {
+        width: 400px;
+        height: 400px;
+    }
+}
+

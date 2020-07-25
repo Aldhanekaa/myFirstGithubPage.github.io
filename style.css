@@ -44,7 +44,7 @@ body {
     color: red;
     transition: .3s;
     cursor: pointer;
-    animation: animasi 5s infinite alternate;
+    animation: animasi 8s linear infinite alternate;
 }
 
 .logo h2:hover {

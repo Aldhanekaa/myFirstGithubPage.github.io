@@ -1,2 +1,4 @@
 # myFirstGithubPage.github.io
-my First Github Page
+
+# NOTES: 
+-- You can 
